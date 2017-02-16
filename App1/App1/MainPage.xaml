@@ -4,8 +4,15 @@
              xmlns:local="clr-namespace:App1"
              x:Class="App1.MainPage">
 
-	<Button Text="Welcome to Xamarin Forms!" 
+    <StackLayout>
+        <Label Text="Welcome to Xamarin Forms!" 
+
+	
+
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
+        <Label Text="hello work"/>
+      <Button Text="Welcome to Xamarin Forms!" />
+    </StackLayout>
 
 </ContentPage>
